@@ -96,3 +96,6 @@ Restore the volume with a tarball archive.
 ## Troubleshooting
 ### Networking
 `docker run --name netshoot --rm -it nicolaka/netshoot /bin/bash`
+
+https://cdn.discordapp.com/attachments/973173227172024330/997458253933989908/Docker_Cheat_Sheet-2.pdf
+

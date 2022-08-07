@@ -84,3 +84,27 @@ server {
 	}
 }
 ```
+
+___
+## **NGINX GZIP**
+
+https://ubiq.co/tech-blog/how-to-enable-nginx-gzip-compression/
+___
+# LOAD BALANCING
+https://youtu.be/v81CzSeiQjo
+
+https://youtu.be/a41jxGP9Ic8
+
+
+___
+
+## INSTALLATION ON UBUNTU
+
+**Comment installer & Configurer Nginx sur Ubuntu 20.04**
+
+https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-20-04-fr
+
+
+## **How to install and configure NGINX on Fedora**
+
+https://www.godaddy.com/garage/how-to-install-and-configure-nginx-on-fedora/

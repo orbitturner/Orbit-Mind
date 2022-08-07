@@ -1,0 +1,2 @@
+# SQL CHEATSHEET
+- [ ] https://cdn.discordapp.com/attachments/1005262410845798492/1005262478256640060/IMG_7826.jpg
