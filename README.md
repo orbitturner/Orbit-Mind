@@ -5,9 +5,15 @@
   <a href="http://orbitturner.com/"><img src="./.assets/ORBIT-MIND.gif" width="auto" alt="ORBIT-MIND COVER"/></a>
 </p>
 
-These are my Cheat-Sheets and notes I use for various projects, tools and technologies. They are separated in sections like Tools, Infrastructure, Cybersecurity, and much more.
+
+My name is **Orbit Turner** and welcome to my 🚀 Digital Galaxy 🌌.
+
+Below you'll find small, interconnected notes that I write for myself to _think, remember, connect and imagine_ more. These are my Cheat-Sheets and notes I use for various projects, tools and technologies. They are separated in sections like Tools, Infrastructure, Cybersecurity, and much more.
 
 I created them as free resources to be used in your specific use cases. If you're searching for detailed, in-depth tutorials on some tools or technologies, check out my Website : [Orbit-World](https://orbitturner.com).
+
+**There is no "right" way to start, just click on what tickles your fancy today.**
+
 
 ### Warning
 
