@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "people/Business Connection.md",
+            "file": "youtube/SYSADMINS & DEVOPS CHANNELS.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#c0c0c0ARTICLE",
+                "query": "tag:#dc143c",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "people/Business Connection.md",
+                "file": "youtube/SYSADMINS & DEVOPS CHANNELS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "people/Business Connection.md",
+                "file": "youtube/SYSADMINS & DEVOPS CHANNELS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "people/Business Connection.md"
+                "file": "youtube/SYSADMINS & DEVOPS CHANNELS.md"
               }
             }
           }
@@ -129,15 +129,15 @@
   },
   "active": "bbb301126a6fc5d7",
   "lastOpenFiles": [
-    "people/Influencers.md",
+    "youtube/GENERAL KNOWLEDGE CHANNELS.md",
+    "youtube/Engineering & Scientific Channels.md",
+    "youtube/DEV CHANNELS.md",
+    "youtube/SYSADMINS & DEVOPS CHANNELS.md",
+    "infrastructure/Ansible.md",
+    "infrastructure/Welcome to Infra !.md",
+    "developer/javascript/CodeUtils.md",
     "people/Investors.md",
-    "people/Business Connection.md",
     "people/Journalists.md",
-    "README.md",
-    "2022-08-09.md",
-    "developer/front-end/angular/DocxTemplater.md",
-    "databases/postgres.md",
-    "databases/Welcome to DBs !.md",
-    "databases/sqlserver.md"
+    "people/Business Connection.md"
   ]
 }

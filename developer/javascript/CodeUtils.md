@@ -47,4 +47,66 @@ https://www.commentcoder.com/formater-date-javascript/#:~:text=Le%20format%20jj%
 
 - **Javascript Intl.RelativeTimeFormat** :
 https://cdn.discordapp.com/attachments/893106843101048852/1003952141041410068/IMG_7756.jpg
+```js
+const rtf1 = new Intl.RelativeTimeFormat('en', { 
+		style: 'narrow' 
+	}
+);
+
+console.log(rtf1.format(3, 'quarter'));
+//expected output: "in 3 qtrs."
+
+console.log(rtf1.format(-1, 'day'));
+//expected output: "1 day ago"
+
+const rtf2 = new Intl.RelativeTimeFormat('es', { numeric: 'auto' });
+
+console.log(rtf2.format(2, 'day'));
+//expected output: "pasado mañana"
+
+
+const english = new Intl.RelativeTimeFormat('en-us')
+const spanish = new Intl.RelativeTimeFormat('es-es')
+
+english.format(-2, 'days')
+// 2 days ago
+spanish.format(10, 'hours')
+// dentro de 10 horas
+```
+
+```
+- **Javascript Intl.NumberFormat** :
+```js
+const mnt = 1212432;
+
+new Intl.NumberFormat('fr-FR', {
+    style: 'currency',
+    currency: 'XOF'
+}).format(mnt);
+
+const number = 123456.789;
+
+console.log(
+	new Intl.NumberFormat('de-DE', { 
+		style: 'currency', currency: 'EUR' 
+	}).format(number)
+);
+// expected output: "123.456,79 €"
+
+// the Japanese yen doesn't use a minor unit
+console.log(
+	new Intl.NumberFormat('ja-JP', { 
+		style: 'currency', currency: 'JPY' 
+	}).format(number)
+);
+// expected output: "￥123,457"
+
+// limit to three significant digits
+console.log(
+	new Intl.NumberFormat('en-IN', { 
+		maximumSignificantDigits: 3 
+	}).format(number)
+);
+// expected output: "1,23,000"
+```
 
