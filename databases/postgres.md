@@ -13,7 +13,8 @@ ___
 
 # TWEAKS
 
-## **GENERATE UUID**
+## **USE & GENERATE UUID**
+- USE : `CREATE EXTENSION IF NOT EXISTS "uuid-ossp";`
 https://dba.stackexchange.com/questions/122623/default-value-for-uuid-column-in-postgres
 
 

@@ -74,7 +74,7 @@ spanish.format(10, 'hours')
 // dentro de 10 horas
 ```
 
-```
+
 - **Javascript Intl.NumberFormat** :
 ```js
 const mnt = 1212432;

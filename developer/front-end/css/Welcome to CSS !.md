@@ -16,3 +16,9 @@ https://www.youtube.com/watch?v=UWwNIMHFdW4
 https://get.scribehow.com/
 
 https://coolsymbol.com/
+___
+
+## UI TIPS
+1. https://twitter.com/jh3yy/status/1553088904172949504
+2. https://twitter.com/jh3yy/status/1552822610274054145
+3. https://twitter.com/jh3yy/status/1552099125348298752

@@ -8,3 +8,9 @@ https://www.aapanel.com/index.html
 
 ## INSTALLATION 
 https://www.aapanel.com/install.html
+
+
+## DEBUG
+
+- /www/server/panel/data
+- https://www.aapanel.com/new/download.html

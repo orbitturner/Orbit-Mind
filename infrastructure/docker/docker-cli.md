@@ -14,6 +14,8 @@ COMMAND | DESCRIPTION
 `docker pause CONTAINER` | Suspend a container
 `docker unpause CONTAINER` | Resume a container
 `docker rm CONTAINER` | Destroy a container
+`docker rename CONTAINER NEW_NAME` | Rename a container
+
 ## Container Bulk Management
 COMMAND | DESCRIPTION
 ---|---
