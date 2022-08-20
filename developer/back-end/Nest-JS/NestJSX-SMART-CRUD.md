@@ -2,6 +2,36 @@
 
 ## INTRODUCTION 
 
+You're probably wondering what the hell a Smart API is. 🤔
+
+😂 I understand you too but the question to ask is what are we going to build? To solve what problem?
+
+Quite often, the problem with our REST APIs is:
+How to easily query or manipulate all this data without having to write all the Handlers in my Controllers and all the methods in my services?
+
+> GraphQL maybe? 🤔
+
+Also in this case (GraphQL) how to provide all possible questions or filters without writing all resolvers?
+
+😂 Yes I am very very LAZY as any developer should be 😂 I am ALWAYS looking for shortcuts.
+
+Basically I want to have a REST API but that behaves like GraphQL i.e. in the GET requests I could filter on the fly the data I was going to retrieve from the database. So the GET request will indirectly build the SQL request.
+
+Why?! Because when you put it like that it sounds strange but the impact is huge in the system if directly in front I am able to ask questions like:
+
+> What are the active users whose log starts with F, who are between 30 and 40 years old and are of Senegalese nationality?
+
+...And don't have to anticipate this in the backend with methods in Controllers and Services, I would have an incredibly flexible and lightweight system.
+
+What about all those CRUDs to do for hundreds of tables and an array of databases?
+
+I had to find a way to automate this and solve this redundancy problem from the start.
+
+That's when, in the middle of all this chaos, after days and days of searching, I don't know how, I find a microframework for NestJS called `"@nestjsx/crud"`.
+
+___
+## NESTJSX PRESENTATION 
+
 We believe that everyone who's working with NestJs and building some RESTful services and especially some CRUD functionality will find `@nestjsx/crud` microframework very useful.
 
 ### Features
@@ -38,6 +68,8 @@ We believe that everyone who's working with NestJs and building some RESTful ser
 - 🏇 [CRUD ORM Services](https://github.com/nestjsx/crud/wiki/Services#description)
 - 🎺 [Handling Requests](https://github.com/nestjsx/crud/wiki/Requests#description)
 ___
+
+# HOW TO CONFIGURE IT PROPERLY
 
 ## LET'S GO 🚀
 > [!INFO] # **STEP 1 : INSTALL NESTJS & CREATE PROJECT** 
