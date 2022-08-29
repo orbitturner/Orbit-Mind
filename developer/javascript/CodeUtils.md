@@ -110,3 +110,34 @@ console.log(
 // expected output: "1,23,000"
 ```
 
+___
+## What is **`MutationObserver()`** function
+
+The **`MutationObserver()`** function is used to detect or watch the changes made on the DOM tree. It simply detects the DOM element changes and also URL changes on the single-page website like React JS and Angular JS.
+
+## Source Code to Detect URL Change in JavaScript Without Page Refresh
+
+```js
+let lastUrl = location.href;
+
+new MutationObserver(() => {
+  const url = location.href;
+
+  if (url !== lastUrl) {
+    lastUrl = url;
+    onUrlChange();
+  }
+}).observe(document, {subtree: true, childList: true});
+
+function onUrlChange() {
+  alert('URL changed!', location.href);
+}
+```
+
+**Code Explanations:**
+
+-   On the above source code first, we take the current URL of the page using **`location.href;`**
+-   After that, we use the **MutationObserver method** **`observe()`** configures the **MutationObserver callback to begin receiving notifications of changes to the DOM** that match the given options.
+    -   **`observe(document, {subtree: true, childList: true});`**
+    
+-   At the last, we compare the URLs then call the function which prompts with new location URL.

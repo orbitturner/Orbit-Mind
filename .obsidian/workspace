@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "developer/back-end/Nest-JS/NestJSX-SMART-CRUD.md",
+            "file": "developer/javascript/CodeUtils.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kubect",
+                "query": "Angular",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "developer/back-end/Nest-JS/NestJSX-SMART-CRUD.md",
+                "file": "developer/javascript/CodeUtils.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "developer/back-end/Nest-JS/NestJSX-SMART-CRUD.md",
+                "file": "developer/javascript/CodeUtils.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "developer/back-end/Nest-JS/NestJSX-SMART-CRUD.md"
+                "file": "developer/javascript/CodeUtils.md"
               }
             }
           }
@@ -131,13 +131,13 @@
   "lastOpenFiles": [
     "developer/back-end/Nest-JS/Welcome to NestJS !.md",
     "developer/back-end/Nest-JS/NestJSX-SMART-CRUD.md",
+    "developer/front-end/angular/Welcome to ANGULAR !.md",
+    "developer/back-end/NodeJS/MULTIPLE CONNECTION.md",
+    "os/linux/Welcome to Ubuntu !.md",
     "databases/postgres.md",
     "infrastructure/kubernetes/kubectl.md",
     "infrastructure/argo/argocd.md",
     "infrastructure/docker/docker-cli.md",
-    "os/windows/chocolatey.md",
-    "developer/front-end/css/Welcome to CSS !.md",
-    "developer/back-end/caching/REDIS.md",
-    "security/LinuxMonitoring.md"
+    "os/windows/chocolatey.md"
   ]
 }

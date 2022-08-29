@@ -48,3 +48,14 @@ https://ashwin9798.medium.com/nginx-with-docker-and-node-js-a-beginners-guide-43
 
 https://medium.com/@adriendesbiaux/node-js-pm2-docker-docker-compose-devops-907dedd2b69a
 ___
+
+# How to setup NestJS Dynamic Cron Job using Schedule API?
+https://progressivecoder.com/how-to-setup-nestjs-dynamic-cron-job-using-schedule-api/
+
+https://docs.nestjs.com/techniques/task-scheduling#dynamic-schedule-module-api
+
+# NestJS Microservices for Beginners #3: Cron Jobs / Multiple Connection
+https://youtu.be/FX5JySeL1WY
+
+# Nestjs-Query
+https://doug-martin.github.io/nestjs-query/docs/introduction/getting-started
