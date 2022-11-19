@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "developer/javascript/CodeUtils.md",
-            "mode": "source",
+            "file": "business/Investment - Angels.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Angular",
+                "query": "micro ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "developer/javascript/CodeUtils.md",
+                "file": "business/Investment - Angels.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "developer/javascript/CodeUtils.md",
+                "file": "business/Investment - Angels.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "developer/javascript/CodeUtils.md"
+                "file": "business/Investment - Angels.md"
               }
             }
           }
@@ -129,15 +129,15 @@
   },
   "active": "dda32875cb444f9d",
   "lastOpenFiles": [
-    "developer/back-end/Nest-JS/Welcome to NestJS !.md",
+    "business/Welcome to Business !.md",
+    "business/Investment - Angels.md",
     "developer/back-end/Nest-JS/NestJSX-SMART-CRUD.md",
-    "developer/front-end/angular/Welcome to ANGULAR !.md",
-    "developer/back-end/NodeJS/MULTIPLE CONNECTION.md",
-    "os/linux/Welcome to Ubuntu !.md",
-    "databases/postgres.md",
-    "infrastructure/kubernetes/kubectl.md",
-    "infrastructure/argo/argocd.md",
-    "infrastructure/docker/docker-cli.md",
-    "os/windows/chocolatey.md"
+    "people/Journalists.md",
+    "people/Business Connection.md",
+    "people/Influencers.md",
+    "people/Investors.md",
+    "developer/back-end/Nest-JS/Multi-Tenancy With NestJS.md",
+    "developer/back-end/Nest-JS/Dynamic Table.md",
+    "os/windows/RDP.md"
   ]
 }

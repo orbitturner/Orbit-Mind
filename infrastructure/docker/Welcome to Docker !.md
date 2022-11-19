@@ -29,3 +29,10 @@ ___
 
 ___
 **CheatSheet** : https://cdn.discordapp.com/attachments/973173227172024330/997463153845747824/unknown.png
+
+___
+
+# How to Install and Use Portainer for Docker management with Nginx Proxy Manager
+
+https://www.howtoforge.com/how-to-install-and-use-portainer-for-docker-management-with-nginx-proxy-manager/
+

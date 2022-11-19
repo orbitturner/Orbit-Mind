@@ -19,3 +19,8 @@ ___
 ## Awesome Selfhosted Webmails
 
 https://github.com/orbitturner/awesome-selfhosted/tree/master#communication---email---webmail-clients
+
+___
+## AppSuite: Open-Xchange
+
+https://oxpedia.org/wiki/index.php?title=AppSuite:Open-Xchange_Installation_Guide_for_Debian_11.0
