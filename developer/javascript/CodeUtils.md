@@ -141,3 +141,8 @@ function onUrlChange() {
     -   **`observe(document, {subtree: true, childList: true});`**
     
 -   At the last, we compare the URLs then call the function which prompts with new location URL.
+___
+
+## [Enforcing the type of the indexed members of a Typescript object?](https://stackoverflow.com/questions/13315131/enforcing-the-type-of-the-indexed-members-of-a-typescript-object)
+
+https://stackoverflow.com/questions/13315131/enforcing-the-type-of-the-indexed-members-of-a-typescript-object

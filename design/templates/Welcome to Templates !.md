@@ -1,0 +1,1 @@
+https://freefrontend.com/html-css-404-page-templates/
