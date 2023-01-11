@@ -29,7 +29,8 @@ echo "  /___\_ __| |__ (_) |_  /__   \_   _ _ __ _ __   ___ _ __ ";
 echo " //  // '__| '_ \| | __|   / /\/ | | | '__| '_ \ / _ \ '__|";
 echo "/ \_//| |  | |_) | | |_   / /  | |_| | |  | | | |  __/ |   ";
 echo "\___/ |_|  |_.__/|_|\__|  \/    \__,_|_|  |_| |_|\___|_|   ";
-echo "                                                           ";
+echo "                          ***                              ";
+echo "🚀 https://orbitturner.com 🌟 orbitturner@futurize.world 🚀";
 # echo "💚🔰 KEEP GOING FURTHER 🔰💚";
 # Chocolatey profile
 $ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"

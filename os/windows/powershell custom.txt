@@ -1,0 +1,2 @@
+Get Powershell 7
+https://github.com/johnthebrit/RandomStuff/blob/master/PowerShellStuff/psreadlinedemo.ps1
