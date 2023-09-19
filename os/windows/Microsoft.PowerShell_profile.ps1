@@ -2,10 +2,42 @@ $PSDefaultParameterValues['Out-File:Encoding'] = 'utf8'
 $PSDefaultParameterValues['*:Encoding'] = 'utf8'
 [console]::InputEncoding = [console]::OutputEncoding = [System.Text.Encoding]::UTF8
 
-# Import-Module oh-my-posh
+
 Import-Module -Name Terminal-Icons
-# Import-Module posh-git
-# Set-PoshPrompt -Theme paradox
+Import-Module PSReadLine
+Set-PSReadLineOption -PredictionSource HistoryAndPlugin
+Set-PSReadLineOption -PredictionViewStyle ListView
+
+Set-PSReadLineOption -EditMode Emacs
+
+# Searching for commands with up/down arrow is really handy.  The
+# option "moves to end" is useful if you want the cursor at the end
+# of the line while cycling through history like it does w/o searching,
+# without that option, the cursor will remain at the position it was
+# when you used up arrow, which can be useful if you forget the exact
+# string you started the search on.
+Set-PSReadLineOption -HistorySearchCursorMovesToEnd
+Set-PSReadLineKeyHandler -Key UpArrow -Function HistorySearchBackward
+Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward
+
+# Sometimes you enter a command but realize you forgot to do something else first.
+# This binding will let you save that command in the history so you can recall it,
+# but it doesn't actually execute.  It also clears the line with RevertLine so the
+# undo stack is reset - though redo will still reconstruct the command line.
+Set-PSReadLineKeyHandler -Key Alt+w `
+                         -BriefDescription SaveInHistory `
+                         -LongDescription "Save current line in history but do not execute" `
+                         -ScriptBlock {
+    param($key, $arg)
+
+    $line = $null
+    $cursor = $null
+    [Microsoft.PowerShell.PSConsoleReadLine]::GetBufferState([ref]$line, [ref]$cursor)
+    [Microsoft.PowerShell.PSConsoleReadLine]::AddToHistory($line)
+    [Microsoft.PowerShell.PSConsoleReadLine]::RevertLine()
+}
+
+
 oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/atomic.omp.json" | Invoke-Expression
 
 

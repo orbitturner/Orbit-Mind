@@ -14,3 +14,4 @@ https://www.aapanel.com/install.html
 
 - /www/server/panel/data
 - https://www.aapanel.com/new/download.html
+- The Terminal WSS Bug Fix. As root: btpip install simple-websocket==0.10.0 && bt 1 

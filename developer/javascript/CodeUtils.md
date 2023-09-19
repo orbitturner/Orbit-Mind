@@ -146,3 +146,9 @@ ___
 ## [Enforcing the type of the indexed members of a Typescript object?](https://stackoverflow.com/questions/13315131/enforcing-the-type-of-the-indexed-members-of-a-typescript-object)
 
 https://stackoverflow.com/questions/13315131/enforcing-the-type-of-the-indexed-members-of-a-typescript-object
+
+___
+
+## Add to Calendar Link Generator
+
+https://www.labnol.org/calendar/

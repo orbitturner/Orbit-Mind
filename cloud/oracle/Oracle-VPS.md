@@ -5,3 +5,4 @@ https://youtu.be/g7sP33QtuxM
 
 DOC / COMMAND : https://www.aapanel.com/reference.html
 
+https://ideaspot.com.au/blog/oracle-free-tier-setup/
